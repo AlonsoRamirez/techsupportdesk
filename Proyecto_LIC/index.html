@@ -1,51 +1,50 @@
+
 <!DOCTYPE html>
 <html leng="es">
 <head>
    <meta charset="utf-8"/>
    <title>Tech Support Desk | Home</title>
-  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/font-awesome.css"> <!--Se llaman dos CSS: las que contienen los componentes para estilizar la página y la que se encarga de los íconos y los tipos de fuente a utilizar-->
      <link href="css/bootstrap.css" rel="stylesheet">
 
 </head>
 <body>
 
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">          <!--Se crea la barra de navegación en la parte superior de la página-->
+      <div class="container"> <!--Se crea el contenedor de elementos-->
+        <div class="navbar-header"> <!--Se crea la cabecera-->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <!--Cuando se haga responsive, todos los datos se reducen y se muestran al ser presionado. Ésto solo funciona con bootstrap.js y jQuery. Su ícono son 3 barras horizontales-->
             <span class="sr-only">navegacion</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-          <a class="navbar-brand">Tech Support Desk</a>
+          <a class="navbar-brand">Tech Support Desk</a> <!--Se crea el slogan de la empresa-->
  
 
         </div>
 
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <div class="collapse navbar-collapse navbar-ex1-collapse"> <!--Comienza el menú de navegación-->
                        <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html"><i class="fa fa-home"></i> Home</a>
+                    <li class="active"><a href="index.html"><i class="fa fa-home"></i> Home</a> <!--Cuando el elemento del menú se encuentra en la página a la que dirige en los vínculos, se coloca en color negro-->
                     </li>                 
           <li><a href="html/soporte.html"><i class="fa fa-wrench"></i> Soporte Técnico</a>
                     </li>
           
-                    <li><a href="html/ayuda.html"><i class="fa fa-cogs"></i> Ayuda General</a>
-                    </li>
+
                     <li><a href="html/creadores.html"><i class="fa fa-user"></i> Creadores</a>
                     </li>
                     <li><a href="html/contacto.html"><i class="fa fa-envelope"></i> Contacto</a>
                     </li>
      
                 </ul>
-            </div>
+            </div> <!--Termina el menú de navegación-->
           
     
   </div><!-- /.nav-collapse -->
-</nav>
+</nav> <!--Se cierra la barra de navegación-->
  
-          <div id="slider-wrapper">
+          <div id="slider-wrapper"> <!--Se crea el contenedor de la imagen con la apariencia del slider Carousel-->
 
                 <div class="row carousel-holder">
 
@@ -53,8 +52,8 @@
                         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img class="slide-image" src="img/tech.png" alt="">
-                                       <div class="carousel-caption">
+                                    <img class="slide-image" src="img/tech.png" alt=""> <!--Se coloca la imagen-->
+                                       <div class="carousel-caption"> <!--Comentario acerca de la página donde se encuentra el usuario-->
               <h1>Home</h1>
             </div>
                                 </div>
@@ -69,7 +68,7 @@
 
                 </div>
                </div>   
-<div class="jumbotron">
+<div class="jumbotron">  <!--Panel que contiene la introducción del sitio-->
 
         <div class="span12" id="divMain">
                    <h1>Introducción</h1>
@@ -79,7 +78,7 @@
 
 </div>
 
-  <footer>
+  <footer> <!--Pie de página que contiene el nombre de la empresa, quienes lo diseñaron y un enlace hacia la página donde se encuentra el repositorio de GitHub-->
      <center><a href="https://github.com/AlonsoRamirez/techsupportdesk"> <i class="fa fa-github fa-2x"></i></a></center>
       
 <p class="pull-right"><a href="#">Volver hacia arriba</a></p>
